@@ -1,3 +1,3 @@
-<h1>Java - Spring Boot</h1>
-React js
-Mysql 
+<h1>Used Technologies</h1>
+<p color="red">React js</p>
+<p>Mysql</p>
