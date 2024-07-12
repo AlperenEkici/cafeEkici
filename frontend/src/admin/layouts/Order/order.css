@@ -1,0 +1,92 @@
+
+/* Başlıklar */
+.titles {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 20px; 
+}
+
+.titles h3 {
+   flex-grow: 1;
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
+
+
+/* Sipariş öğeleri */
+.order-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.order-item .order-customer {
+    font-size: 16px;
+    color: #555;
+}
+
+.order-item h1 {
+    font-size: 16px;
+    color: #555;
+}
+
+
+
+.order-item .order-customer,
+.order-item .order-phone,
+.order-item .order-title,
+.order-item .order-id
+{
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+    flex: 1;
+}
+
+.order-item .order-state
+{
+    text-align: center;
+    font-size: 16px;
+    color: red;
+    flex: 1;
+}
+.title-quantity 
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+   
+}
+.order-item .product{
+    margin-right: 5px;
+    border: 5px;
+    border-style: groove;
+}
+
+.order-item .product .order-quantity{
+    display: flex;
+    justify-content: center;
+}
+
+
+
